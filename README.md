@@ -1,34 +1,38 @@
-# 🔵 Facebook Login Page UI Clone
+# 🔵 Pepsi Landing Page (Practice Project)
 
-A high-fidelity frontend pixel-perfect clone of the official **Facebook Login Page**. This project is built entirely from scratch to practice advanced layout design, form styling, typography alignment, and responsive structuring using modern frontend design standards.
+A sleek, modern, and visually appealing single-page landing page website for **Pepsi**, built from scratch as a frontend practice project. This project focuses on capturing a premium brand aesthetic using clean UI elements, precise color matching, and responsive design patterns.
 
 ---
 
 ## ✨ Features
-* **Pixel-Perfect Replica:** Exact matching of colors (Facebook Blue), input field borders, typography sizes, and component dimensions.
-* **Dual-Column Layout:** Beautiful split layout on desktop (Left side text/branding, Right side interactive login card form).
-* **Interactive Form Elements:** Custom focus states, placeholder animations, and premium button hover transitions.
-* **Footer Navigation Links:** Multi-language and utility links structured neatly at the bottom just like the actual web portal.
-* **Component Responsiveness:** Fluid grid mapping to shift from a desktop split-view to a mobile stacked-view.
+* **Brand-Accurate Aesthetic:** High-fidelity implementation of Pepsi's iconic color palette (Pepsi Blue, Crimson Red, and Clean White).
+* **Hero Product Showcase:** A premium central showcase section highlighting the flagship product with smooth alignment.
+* **Interactive Navigation:** A clean header with active-state navigation links and a responsive menu layout.
+* **Micro-Interactions:** Smooth CSS transitions and hover effects on call-to-action (CTA) buttons and product cards.
+* **Fluid Layout:** Engineered to adapt smoothly across multiple devices without breaking structural elements.
 
 ---
 
 ## 🛠️ Tech Stack & Implementation
 
-The clone is designed utilizing semantic web practices with clean file separation:
+The project code is structurally clean, separating content from design tokens:
 
 ### 🌐 HTML5 (Structure)
-* Structured using secure and accessible form elements (`<form>`, `<input>`, `<button>`).
-* Uses logical wrapper classes to isolate the login container from the responsive footer layout.
+* Uses semantic elements (`<header>`, `<nav>`, `<main>`, `<section>`) to establish a solid structural DOM.
+* Formatted with clean class architecture to ensure components remain isolated and easily styleable.
 
 ### 🎨 CSS3 (Design & Layout)
-* Employs **Flexbox** for precise vertical and horizontal alignment of the login card card inside the viewport.
-* Styled with Facebook's exact brand color palettes, font weights, and rounded borders (`border-radius: 6px`).
-* Implements explicit CSS Media Queries to handle smaller breakpoints, ensuring the UI looks natural on smartphones and tablets without text overlapping.
+* Leverages **Flexbox** for modern alignment, centering the hero content and spacing navigation items gracefully.
+* Styled with exact hex codes for brand identification, utilizing soft shadows, rounded buttons, and customized typography.
+* **Responsive Breakpoints:** Implements precise Media Queries to transition from desktop wide-screens to stacked single-column viewports on mobile devices.
 
 ---
 
+## 📁 Repository Structure
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/ali-web-1245/facebook-login-UI.git](https://github.com/ali-web-1245/facebook-login-UI.git)
+To ensure automated deployment via GitHub Pages works seamlessly, files are placed at the root level:
+* `index.html` — Core structural document containing the webpage markup.
+* `style.css` — Central stylesheet managing layouts, fonts, and responsive behaviors.
+* `images/` — (Optional) Directory housing the asset elements, logos, and product mockups.
+
+---
